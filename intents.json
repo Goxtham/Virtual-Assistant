@@ -1,0 +1,32 @@
+{"intents": [
+    {
+        "tag" : "greeting",
+        "patterns" : ["hey","hello","what is up","Good day","How are you"],
+        "responses" : ["Hello I am your virtual assistant! What can i do for you? "],
+        "context_set" : ""
+    },
+    {
+        "tag" : "todoshow",
+        "patterns" : ["Show me my todo list","What is on my todo list","Show me my todos","Todo list"],
+        "responses" : ["Showing Todo list "],
+        "context_set" : ""
+    },
+    {
+        "tag" : "todoadd",
+        "patterns" : ["Add something to my todo list","Add an item to my todo list","I want to add a todo"],
+        "responses" : ["Adding to Todo List"],
+        "context_set" : ""
+    },
+    {
+        "tag" : "todoremove",
+        "patterns" : ["Remove something to my todo list","Remove an item to my todo list","I want to remove a todo"],
+        "responses" : ["Removing from Todo List"],
+        "context_set" : ""
+    },
+    {
+        "tag" : "goodbye",
+        "patterns" : ["Goodbye","Bye","Exit","I have to go now","Bye Bye","See you next time","See ya"],
+        "responses" : ["GoodBye"],
+        "context_set" : ""
+    }
+]}
